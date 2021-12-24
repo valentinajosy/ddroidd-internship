@@ -1,5 +1,4 @@
 import React from "react";
-import { UseHistory } from "react-router-dom";
 import classes from "./Button.module.css";
 
 const Button = (props) => {

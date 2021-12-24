@@ -17,7 +17,6 @@ code {
   src: local("OpenSansRegular") url("./assets/Fonts/OpenSansRegular.ttf")
     format("truetype");
   font-weight: 400;
-  font-style: normal;
 }
 
 @font-face {
@@ -25,13 +24,13 @@ code {
   src: local("OpenSansBold") url("./assets/Fonts/OpenSansBold.ttf")
     format("truetype");
   font-weight: 700;
-  font-style: normal;
 }
 
 @font-face {
   font-family: "OpenSansExtraBold";
   src: local("OpenSansExtraBold") url("./assets/Fonts/OpenSansExtraBold.ttf")
     format("truetype");
+  font-weight: 900;
 }
 
 @font-face {
@@ -39,5 +38,10 @@ code {
   src: local("OpenSansLight") url("./assets/Fonts/OpenSansBold.ttf")
     format("truetype");
   font-weight: 300;
-  font-style: normal;
+}
+
+h1 {
+  color: #f4f5f8;
+  font-weight: 900 !important;
+  font-family: "OpenSansExtraBold";
 }

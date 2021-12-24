@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans");
-
 body {
   height: 100vh;
   font-family: "OpenSansRegular";
@@ -11,9 +9,13 @@ form {
 }
 
 label {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: bold;
-  font-family: "OpenSansRegular";
+  font-family: "OpenSansLight";
+}
+
+label span {
+  color: #fc0000;
 }
 
 .appForm {
@@ -37,7 +39,6 @@ label {
 .input label {
   display: block;
   font-weight: bold;
-  margin-bottom: 0.5rem;
 }
 
 .input input {
@@ -49,6 +50,7 @@ label {
   padding: 0.15rem;
   margin-bottom: 0.5rem;
   box-shadow: 0px 8px 6px #666666;
+  font-family: "OpenSansRegular";
 }
 
 .input input:focus {
@@ -57,22 +59,23 @@ label {
 }
 
 .input ::placeholder {
-  font-size: 11px;
+  font-size: 12px;
   padding-bottom: 5px;
+  font-family: "OpenSansLight";
 }
 
 h2 {
   padding: 40px;
   text-align: center;
-  font-family: "OpenSansExtraBold";
-  font-weight: bold;
   font-size: 28px;
+  font-weight: 900 !important;
+  font-family: "OpenSansExtraBold";
 }
 
 h5 {
   padding-top: 50px;
+  font-weight: 900 !important;
   font-family: "OpenSansExtraBold";
-  font-weight: bold;
   font-size: 14px;
 }
 
@@ -91,8 +94,3 @@ h5 {
   margin-top: 60px;
   font-family: "OpenSansExtraBold";
 }
-
-/* .formInput {
-  width: 819px;
-  height: 537px;
-} */
