@@ -11,11 +11,9 @@ import FirstPage from "./components/UI/firstPage/FirstPage";
 import AddUser from "./components/Users/AddUser";
 
 function App() {
-  const showJoinUsButton = true;
-
   return (
     <div>
-      <Header showJoinUs={showJoinUsButton} />
+      <Header />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="form" element={<Form />} />
