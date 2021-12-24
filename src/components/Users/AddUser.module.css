@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
+body {
+  height: 100vh;
+  font-family: "OpenSansRegular";
+  font-weight: bold;
+}
+
+form {
+  height: 820px;
+}
+
+label {
+  font-size: 12px;
+  font-weight: bold;
+  font-family: "OpenSansRegular";
+}
+
+.appForm {
+  width: 1374px;
+  height: 851px;
+  background: #f4f5f8;
+  margin: auto;
+}
+
+.input {
+  background: #f4f5f8;
+  color: #003c55;
+  margin: 2rem auto;
+  padding: 1rem;
+  width: 90%;
+  /* max-width: 40rem; */
+  width: 819px;
+  height: 537px;
+}
+
+.input label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.input input {
+  font: inherit;
+  display: block;
+  width: 100%;
+  height: 21px;
+  border: 1px solid #ccc;
+  padding: 0.15rem;
+  margin-bottom: 0.5rem;
+  box-shadow: 0px 8px 6px #666666;
+}
+
+.input input:focus {
+  outline: none;
+  border-color: #09030a;
+}
+
+.input ::placeholder {
+  font-size: 11px;
+  padding-bottom: 5px;
+}
+
+h2 {
+  padding: 40px;
+  text-align: center;
+  font-family: "OpenSansExtraBold";
+  font-weight: bold;
+  font-size: 28px;
+}
+
+h5 {
+  padding-top: 50px;
+  font-family: "OpenSansExtraBold";
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.btnJoinUs {
+  text-align: right;
+}
+
+.button {
+  width: 260px;
+  height: 31px;
+  font-weight: bold;
+  color: #003c55;
+  background: #ffe000;
+  box-shadow: 0px 8px 6px #00000029;
+  border: 1px solid #707070;
+  margin-top: 60px;
+  font-family: "OpenSansExtraBold";
+}
+
+/* .formInput {
+  width: 819px;
+  height: 537px;
+} */

@@ -1,0 +1,15 @@
+.content {
+  width: 1374px;
+  height: 851px;
+  background-color: #f4f5f8;
+  margin: auto;
+  text-align: center;
+  padding: 360px;
+}
+
+.content h1 {
+  margin: auto;
+  color: #003c55;
+  font-size: 48px;
+  font-weight: bold;
+}
